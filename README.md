@@ -6,18 +6,6 @@ A distinguishing feature is the ability to define a **flow definition** consisti
 
 In REST terms a flow represents as a single resource. The same URL used to start the flow is also the URL used to step through the flow (there is also an execution key uniquely identifying the current flow instance). As a result of this approach navigation remains encapsulated in the flow definition.
 
-Some key benefits of using Spring Web Flow:
-
-+ A flow abstraction to model *"long conversations"* in web applications
-+ Proper encapsulation for navigation rules
-+ Multiple scopes in which to keep data
-+ Automatic use of the POST/REDIRECT/GET pattern to avoid browser warnings
-+ Impossible to return to completed flow sessions via browser back button
-+ Rapid prototyping of flow requirements
-+ Development mode in which flow definition changes are detected on the fly
-+ IDE visualization for flow definitions
-+ Much more...
-
 # Documentation
 
 See the current [Javadoc](https://docs.spring.io/spring-webflow/docs/current/api/) and [Reference](https://docs.spring.io/spring-webflow/docs/current/reference/html/) docs.
